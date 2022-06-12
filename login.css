@@ -1,0 +1,111 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(90deg, #2606A6 -1.41%, #9A0AB1 35.15%, #FF003D 100%);
+}
+
+
+nav ul {
+    display: flex;
+    list-style: none;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    padding: 10px;
+
+}
+
+nav a:hover {
+
+   background-color: rgb(255, 255,255,0.2);
+   padding: 10px;
+
+}
+
+.back-menu{
+    background-color: rgb(255, 255,255,0.1);
+}
+
+
+
+.container {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+   
+
+}
+
+.login {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 75px;
+
+
+}
+
+input{
+
+    width: 400px;
+    height: 60px;
+    border-radius: 90px;
+    border: 0px;
+    background:rgb(255, 255,255,0.2);
+    outline: none;
+  
+
+
+
+
+}
+
+
+.input-space {
+    margin-bottom: 20px;
+
+
+
+}
+
+
+
+
+input::placeholder {
+
+
+  color: white;
+ 
+
+}
+
+input[type=text] {
+
+    padding-left: 70px;
+
+}
+
+input[type=submit] {
+
+    background-color: #FB646B;
+    opacity: 1;
+    width: 470px;
+
+}
+.input-span{
+    position:absolute;
+    margin-left: 20px;
+    margin-top: 15px;
+   
+
+}
